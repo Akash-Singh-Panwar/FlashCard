@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  background-color: #141414;
+}
+
+#head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #181818;
+  width: 100%;
+  height: 80px;
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: large;
+}
+
+#head h1 {
+  margin-left: 20px;
+  color: #4490ff;
+}
+
+#note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 180px;
+}
+
+#card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1b1b1b;
+  width: 300px;
+  padding: 2%;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: large;
+}
+
+#card h1 {
+  color: #cfcfcf;
+}
+
+#card p {
+  color: #bebebe;
+}
+
+#card button {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #bebebe;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+#card button:hover {
+  background-color: #4490ff;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+#content #box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+}
+
+#content #box #title {
+  background-color: #bebebe;
+  border-radius: 5px 5px 0px 0px;
+  border: none;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  text-indent: 5px;
+}
+
+#content #box #description {
+  background-color: #bebebe;
+  border-radius: 0px 0px 5px 5px;
+  border: none;
+  margin-top: 5px;
+  width: 300px;
+  height: 80px;
+  outline: none;
+  text-indent: 5px;
+}
+
+#content #box #add {
+  margin-top: 20px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #bebebe;
+}
+
+#content #box #add:hover {
+  background-color: #4490ff;
+}
+
+#content #box #trial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  width: 100vw;
+  margin-bottom: 30px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+#foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #181818;
+  margin-top: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+#foot label {
+  color: #bebebe;
+}
+/*# sourceMappingURL=main.css.map */
